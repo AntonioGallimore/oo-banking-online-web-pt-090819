@@ -16,12 +16,12 @@ class BankAccount
     "Your balance is $#{balance}."
   end
   
-  def valid?
-    if
-      @status == ["open"] and @balance == (0+1)
-      else
-        !valid?
-   end
+  #def valid?
+   # if
+    #  @status == ["open"] and @balance == (0+1)
+     # else
+      #  !valid?
+   #end
   end
   
 
